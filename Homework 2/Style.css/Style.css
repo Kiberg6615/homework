@@ -30,16 +30,18 @@ text-decoration: none;
 
 .container{
     max-width: 1300px;
+    height: 486px;
     margin: 0 auto;
     
 }
 
 .background{
-width: 1300px;
-height: 486px;
 text-align: center;
-background-image: url(../pexels-harrison-candlin-2441454\ 1\ \(2\).png)
-
+background-image: url(../Backround/pexels-harrison-candlin-2441454\ 1\ \(2\).png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-size: cover;
 }
 
 .background_title{
@@ -47,10 +49,10 @@ background-image: url(../pexels-harrison-candlin-2441454\ 1\ \(2\).png)
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
-    line-height: 98px;
     padding-top: 134px;
-   
     color:white ;
+    border: 0%;
+    
 }
 
 .background_button{
@@ -60,11 +62,8 @@ background-image: url(../pexels-harrison-candlin-2441454\ 1\ \(2\).png)
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 36px;
-    line-height: 49px;
     color: #162C38;
-     
-
-}
+    margin-bottom: 174px; }
 
 .description{
     background-color: #5C98AB;
