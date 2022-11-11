@@ -40,8 +40,7 @@ background-image: url(../Backround/pexels-harrison-candlin-2441454\ 1\ \(2\).png
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-padding-top: 138px;
-padding-bottom: 191px;
+padding: 138px 0px 191px;
 }
 
 .background_title{
@@ -142,21 +141,18 @@ position: relative;
 
 .text_midle{
     position: relative;
-    width: 696px;
-    height: 246px;
+    max-width: 696px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     margin: 221px auto; 
      
 
 
 }
 
-.item_left_top::before{
-    content: '';
+.item_left_top{
     position: absolute;
     width: 178px;
     height: 121px;
@@ -168,8 +164,7 @@ position: relative;
      
 }
 
-.item_left_bot::before{
-    content:'';
+.item_left_bot{
     position: absolute;
     width: 178px;
     height: 121px;
@@ -178,8 +173,7 @@ position: relative;
 
 }
 
-.item_right_midle::after{
-    content: '';
+.item_right_midle{
     position: absolute;
     width: 178px;
     height: 121px;
@@ -194,10 +188,8 @@ position: relative;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 36px;
-    width: 696px;
-    height: 246px;
+    max-width: 696px;
     line-height: 42px;
-    text-align: center;
     margin: 0px auto; 
     margin-top: 216px;
     margin-bottom: 123px;
@@ -231,3 +223,4 @@ left: -40px
     right: -133px;
     bottom: -33px;  }
      
+    
