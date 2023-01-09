@@ -1,0 +1,27 @@
+
+.second_blok{
+    display: flex;
+    justify-content: start ;
+    background: #F4F5F7;;
+    padding: 77px;
+}
+
+.second_blok_text{
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+font-family: 'Work Sans';
+width: 555px;
+}
+
+ h6{font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;}
+
+
+.platform_logo{
+    display: flex;
+    justify-content: space-around; 
+     
+}
+
